@@ -14,7 +14,7 @@ const Page = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-white relative overflow-hidden">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-custom-night relative overflow-hidden">
       {showHearts && <FloatingHearts />}
       
       <div className="text-center z-10">
