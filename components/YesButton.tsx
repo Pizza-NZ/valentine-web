@@ -16,7 +16,7 @@ const YesButton = () => {
     text-slate-50 rounded-xl bg-card text-card-foreground shadow
     hover:drop-shadow-lg"
     >
-      ✓ Yes, I'd love to!
+      ✓ Yes, I&apos;d love to!
     </button>
   );
 };

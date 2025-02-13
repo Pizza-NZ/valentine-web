@@ -2,7 +2,6 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -18,7 +17,7 @@ const InfoCard = () => {
         <HeartImage width={200} height={200} />
         <CardTitle className="font-bold text-xl">Will You Be My Valetines?</CardTitle>
         <CardDescription className="text-md">
-          I've been meaning to ask you something special...
+          I&apos;ve been meaning to ask you something special...
         </CardDescription>
       </CardHeader>
       <CardContent className=" space-y-1.5 p-6 h-1/6">

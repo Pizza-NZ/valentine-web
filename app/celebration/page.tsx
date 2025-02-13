@@ -23,7 +23,7 @@ const Page = () => {
           Yay! You said Yes! ❤️
         </h1>
         <p className="text-xl text-gray-700 max-w-md mx-auto leading-relaxed">
-          Thank you for making my day special! You're the best valentine I could ask for.
+          Thank you for making my day special! You&apos;re the best valentine I could ask for.
           Get ready for lots of hugs, kisses, love shaped pizza, and wonderful moments together!
         </p>
       </div>
