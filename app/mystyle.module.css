@@ -1,0 +1,30 @@
+.heartImage {
+  filter: invert(43%) sepia(29%) saturate(780%) hue-rotate(251deg) brightness(93%) contrast(83%);
+  animation: ballon 3s infinite;
+}
+
+.fadeOut {
+  animation: fadeOut 2s ease;
+}
+
+
+@keyframes ballon {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
